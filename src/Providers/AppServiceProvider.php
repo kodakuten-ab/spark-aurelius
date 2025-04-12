@@ -103,6 +103,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        Cashier::ignoreMigrations();
+        //Cashier::ignoreMigrations();
     }
 }
